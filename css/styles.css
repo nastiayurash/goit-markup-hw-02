@@ -128,3 +128,14 @@ h2 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+footer {
+  background: #2e2f42;
+}
