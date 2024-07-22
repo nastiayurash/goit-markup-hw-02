@@ -21,13 +21,14 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-a {
-  text-decoration: none;
-}
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 .nav-list {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -141,7 +142,7 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-list {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
