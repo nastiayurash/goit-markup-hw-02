@@ -63,7 +63,7 @@ body {
   color: #fff;
   background: #2e2f42;
 }
-.order-button {
+.custom-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -74,8 +74,8 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.order-button:hover,
-.order-button:focus {
+.custom-button:hover,
+.custom-button:focus {
   background: #404bbf;
 }
 .features-header {
