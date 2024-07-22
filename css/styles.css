@@ -27,23 +27,22 @@ a {
 ul {
   list-style-type: none;
 }
-.nav-list li a {
+.nav-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list a:hover,
-.nav-list a:focus {
-  color: #404bbf;
-}
 
 .contacts {
   font-style: normal;
 }
-.contact-info li a {
-  font-style: normal;
+.contacts a:hover,
+.contacts a:focus {
+  color: #404bbf;
+}
+.contact-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -89,14 +88,14 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.features-list li h3 {
+.features-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.features-list li p {
+.features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -115,17 +114,17 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list li {
+.team {
   background-color: #ffffff;
 }
-.team-list li h3 {
+.team-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-list li p {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -141,14 +140,14 @@ ul {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.portfolio-list li h3 {
+.portfolio-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-list li p {
+.portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
