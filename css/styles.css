@@ -21,12 +21,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+
 .nav-list {
   font-weight: 500;
   font-size: 16px;
