@@ -27,7 +27,7 @@ a {
 ul {
   list-style-type: none;
 }
-.nav-list {
+.nav-list li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -38,7 +38,11 @@ ul {
 .nav-list a:focus {
   color: #404bbf;
 }
-.contact-info a {
+
+.contacts {
+  font-style: normal;
+}
+.contact-info li a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -77,10 +81,10 @@ ul {
 .order-button:focus {
   background: #404bbf;
 }
-h2 {
+.features-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -111,7 +115,7 @@ h2 {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list {
+.team-list li {
   background-color: #ffffff;
 }
 .team-list li h3 {
